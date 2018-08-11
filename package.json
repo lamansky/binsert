@@ -1,0 +1,41 @@
+{
+  "name": "binsert",
+  "version": "1.0.0",
+  "description": "Uses binary search to insert a value into any sorted collection.",
+  "keywords": [
+    "add",
+    "insert",
+    "sort",
+    "sorted",
+    "collection",
+    "binary search"
+  ],
+  "author": {
+    "name": "Fr. John Lamansky",
+    "url": "lamansky.com"
+  },
+  "license": "MIT",
+  "repository": "lamansky/binsert",
+  "main": "index.js",
+  "files": [],
+  "engines": {
+    "node": ">=8.3.0"
+  },
+  "dependencies": {
+    "bfind": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "is-array-with": "^1.0.0",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
